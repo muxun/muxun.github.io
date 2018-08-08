@@ -1,9 +1,140 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>muxun</title>
-</head>
-<body>
-(*-*)
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Сервис на прием к врачу</title>
+  </head>
+  <body>
+    <br>
+    <center><h4>Сервиc записи на прием к врачу</h4></center>
+    <br>
+
+
+    <!-- Ввод данных пациентом -->
+
+<div class="container">
+<form>
+  <div class="row">
+    <div class="col-sm">
+
+      <div class="shadow-sm">
+      <input type="text" class="form-control" placeholder="Имя">
+      </div>
+
+    </div>
+
+    <div class="col-sm">
+      <div class="shadow-sm">
+      <input type="text" class="form-control" placeholder="Фамилия">
+    </div>
+
+    </div>
+
+     <div class="col-sm">
+      <div class="shadow-sm">
+      <input type="text" class="form-control" placeholder="Отчество">
+      </div>
+
+    </div>
+  </div>
+</form>
+</div>
+
+<br>
+
+
+<!-- Начало контейнера выбора параметров записи к врачу-->
+<div class="container">
+  <div class="row">
+
+  
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Выберете врача</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Терапевт Иванов Иван </option>
+          <option>Терапевт Петров Петр </option>
+          <option>Терапевт Сидоров Сидр </option>
+          <option>Терапевт Семенов Семен </option>
+        </select>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Выберете день</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Понедельник</option>
+          <option>Вторник</option>
+          <option>Среда</option>
+          <option>Четверг</option>
+          <option>Пятница</option>
+        </select>
+      </div>
+    </div>
+ 
+
+   
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Выберете время</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>09-10</option>
+          <option>10-11</option>
+          <option>11-12</option>
+          <option>12-13</option>
+        </select>
+      </div>
+    </div>
+ 
+
+   </div>
+
+
+
+  </div>
+</div>
+
+
+<!-- кнопка отправить -->
+<br>
+<br>
+
+<div class="container">
+  <div class="row justify-content-end">
+    <!--empty-->
+    <div class = "col-sm"></div>
+    <!--empty-->
+    <div class = "col-sm"></div>
+    <!--btn-->
+    <div class = "col-sm">
+     
+        <button type="button" class="btn btn-primary" aria-haspopup="true" aria-expanded="false" >
+        Записаться    
+        </button>
+      
+    </div>
+    
+
+  </div>
+
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
